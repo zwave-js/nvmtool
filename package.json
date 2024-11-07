@@ -12,7 +12,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@zwave-js/core": "^14.1.0",
+    "@zwave-js/core": "^14.2.0",
+    "@zwave-js/nvmedit": "^14.2.0",
     "esbuild": "^0.24.0"
   }
 }

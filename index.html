@@ -9,7 +9,36 @@
   <body>
     <h1>Z-Wave JS: Online NVM editor</h1>
 
-    TODO
+    <div class="toolbar">
+      <button id="btnLoad" class="button-9">Open NVM File</button>
+      <input type="file" id="file" accept=".bin" style="display: none;"" />
+
+      <button id="btnSave" class="button-9">Save modified NVM</button>
+    </div>
+
+    <div class="input">
+      <span>NVM type:</span>
+      <input
+        type="text"
+        readonly
+        id="nvm_type"
+        style="justify-self: flex-start"
+      />
+
+      <span>Protocol version:</span>
+      <input
+        type="text"
+        id="protocol_version"
+        style="justify-self: flex-start"
+      />
+
+      <textarea
+        id="json"
+        style="grid-column: 1 / -1; min-height: 500px"
+      ></textarea>
+
+      <div id="error-message"></div>
+    </div>
 
     <script type="module" src="build/script.js"></script>
   </body>
