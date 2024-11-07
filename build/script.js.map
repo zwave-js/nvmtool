@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/script.ts"],
+  "sourcesContent": ["console.log(\"Hello, world!\");"],
+  "mappings": ";AAAA,QAAQ,IAAI,eAAe;",
+  "names": []
+}
